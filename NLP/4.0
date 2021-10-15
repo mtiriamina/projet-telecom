@@ -1,0 +1,22 @@
+Collecting transformers
+  Downloading transformers-4.5.1-py3-none-any.whl (2.1 MB)
+Requirement already satisfied: requests in c:\users\asus\anaconda3\lib\site-packages (from transformers) (2.24.0)
+Collecting tokenizers<0.11,>=0.10.1
+  Downloading tokenizers-0.10.2-cp38-cp38-win_amd64.whl (2.0 MB)
+Requirement already satisfied: numpy>=1.17 in c:\users\asus\anaconda3\lib\site-packages (from transformers) (1.19.2)
+Requirement already satisfied: packaging in c:\users\asus\appdata\roaming\python\python38\site-packages (from transformers) (20.4)
+Requirement already satisfied: filelock in c:\users\asus\anaconda3\lib\site-packages (from transformers) (3.0.12)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\asus\anaconda3\lib\site-packages (from transformers) (2020.10.15)
+Collecting sacremoses
+  Downloading sacremoses-0.0.45-py3-none-any.whl (895 kB)
+Requirement already satisfied: tqdm>=4.27 in c:\users\asus\anaconda3\lib\site-packages (from transformers) (4.50.2)
+Requirement already satisfied: idna<3,>=2.5 in c:\users\asus\anaconda3\lib\site-packages (from requests->transformers) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in c:\users\asus\anaconda3\lib\site-packages (from requests->transformers) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\asus\anaconda3\lib\site-packages (from requests->transformers) (1.25.11)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\asus\anaconda3\lib\site-packages (from requests->transformers) (2020.6.20)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\asus\appdata\roaming\python\python38\site-packages (from packaging->transformers) (2.4.7)
+Requirement already satisfied: six in c:\users\asus\anaconda3\lib\site-packages (from packaging->transformers) (1.15.0)
+Requirement already satisfied: click in c:\users\asus\anaconda3\lib\site-packages (from sacremoses->transformers) (7.1.2)
+Requirement already satisfied: joblib in c:\users\asus\anaconda3\lib\site-packages (from sacremoses->transformers) (0.17.0)
+Installing collected packages: tokenizers, sacremoses, transformers
+Successfully installed sacremoses-0.0.45 tokenizers-0.10.2 transformers-4.5.1
